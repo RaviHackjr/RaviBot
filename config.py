@@ -36,7 +36,7 @@ START_PIC = os.environ.get("START_PIC", "https://wallpapers.com/images/featured/
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://www.desktophut.com/images/thumb_1684136393_444810.jpg")
 
 #start messages
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!!! {first_name}</b>,\n\n <b>ɪ ᴀᴍ 9ᴀɴɪᴍᴇ ʙᴏᴛ, ɪ ᴀᴍ ᴀɴɪᴍᴇ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴀɴᴅ ɢᴇᴛ ᴀɴɪᴍᴇ ғʀᴏᴍ ᴍᴇ ʙʏ ᴜsɪɴɢ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!!! {first}</b>,\n\n <b>ɪ ᴀᴍ 9ᴀɴɪᴍᴇ ʙᴏᴛ, ɪ ᴀᴍ ᴀɴɪᴍᴇ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴀɴᴅ ɢᴇᴛ ᴀɴɪᴍᴇ ғʀᴏᴍ ᴍᴇ ʙʏ ᴜsɪɴɢ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ</b>")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "6302971969 2077116559 1785065025 6844586745 6931518311 5983649308 6931518311").split()):
